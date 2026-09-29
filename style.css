@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+   margin-left:60px;
+   margin-right: 60px;
+}
+
+.container{
+    background-color: #1F2937;
+    height: 65vh;
+}
+
+/*header section*/
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 150px;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+nav{
+    padding-right: 150px;
+    display: flex;
+    gap:30px; 
+}
+
+nav a {
+    text-decoration: none;  
+    color: #F9FAF8;
+}
+/*hero section*/
+.hero{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.hero-text{
+    margin-left: 150px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 600px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero img{
+    width: 400px;
+    height: 250px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+
+/*INFORMATION SECTION*/
+.main{
+     background-color: #F9FAF8;
+}
+.information{
+    background-color: #F9FAF8;
+}
+
+.information h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.info-snack{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+.french-fries img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.french-fries h2{
+    font-size: 18px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.french-fries p{
+    font-size: 16px;
+    color: #1F2937;
+    width: 210px;
+    font-family: "Roboto", sans-serif;
+}
+
+.biscuits img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.biscuits h2{
+    font-size: 18px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.biscuits p{
+    font-size: 18px;
+    color: #1F2937;
+    width: 210px;
+    font-family: "Roboto", sans-serif;
+}
+
+.chocolate img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.chocolate h2{
+    font-size: 18px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.chocolate p{
+    font-size: 18px;
+    color: #1F2937;
+    width: 210px;
+    font-family: "Roboto", sans-serif;
+}
+
+.gummy-candies img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.gummy-candies h2{
+    font-size: 18px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+}
+
+.gummy-candies p{
+    font-size: 18px;
+    color: #1F2937;
+    width: 210px;
+    font-family: "Roboto", sans-serif;
+}
+
+/*QUOTE SECTION*/
+.quote{
+    padding-top: 100px;
+    margin-top: 80px;
+    background-color: #E5E7EB;
+    height: 55vh;
+    text-align: center;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+.quote h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+    margin-left: 900px;
+}
+
+/*sign up Section*/
+.sign-up{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 20vh;
+    width: 170vh;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.sign-up-text h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up-text p{
+    font-size: 15px;
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vh;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/*footer section*/
+.footer{
+    background-color: #1F2937;
+    height: 15vh;
+    text-align: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+    padding-top: 30px;
+}
